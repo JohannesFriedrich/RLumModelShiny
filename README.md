@@ -1,7 +1,7 @@
 # RLumModel Shiny
 
-[![Build Status](https://travis-ci.org/JohannesFriedrich/rxylibShiny.svg?branch=master)](https://travis-ci.org/JohannesFriedrich/rxylibShiny)
-[![Build status](https://ci.appveyor.com/api/projects/status/tciywrm10kn43n1g?svg=true)](https://ci.appveyor.com/project/JohannesFriedrich/rxylibshiny)
+[![Build Status](https://travis-ci.org/JohannesFriedrich/RLumModelShiny.svg?branch=master)](https://travis-ci.org/JohannesFriedrich/RLumModelShiny)
+[![Build status](https://ci.appveyor.com/api/projects/status/pj59n26gbdjpbphy/branch/master?svg=true)](https://ci.appveyor.com/project/JohannesFriedrich/rlummodelshiny/branch/master)
 
 
 'RLumModel Shiny' is a [Shiny](http://shiny.rstudio.com) app providing a graphical user interface for the **R** package ['RLumModel'](https://CRAN.R-project.org/package=RLumModel). The app allows visualising the results from simulating charge transfer in quartz.
@@ -13,6 +13,12 @@ if(!require("devtools"))
   install.packages("devtools")
 devtools::install_github("JohannesFriedrich/RLumModelShiny@master")
 ```
+
+## Online Access
+
+[App](https://johnsenfr.shinyapps.io/RLumModel_shiny/)
+
+
 
 The application can be run on a local machine with the following command:
 

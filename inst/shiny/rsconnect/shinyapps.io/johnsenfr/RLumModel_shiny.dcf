@@ -1,0 +1,12 @@
+name: RLumModel_shiny
+title: RLumModel_shiny
+username:
+account: johnsenfr
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 209473
+bundleId: 962083
+url: https://johnsenfr.shinyapps.io/RLumModel_shiny/
+when: 1504187664.04311
+asMultiple: FALSE
+asStatic: FALSE
