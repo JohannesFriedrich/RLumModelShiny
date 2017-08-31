@@ -4,25 +4,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/tciywrm10kn43n1g?svg=true)](https://ci.appveyor.com/project/JohannesFriedrich/rxylibshiny)
 
 
-'rxylib Shiny' is a [Shiny](http://shiny.rstudio.com) app providing a graphical user interface for the **R** package ['rxylib'](https://CRAN.R-project.org/package=rxylib). The app allows visualising x-y data from different file formats. For a complete overview see the ['rxylib'](https://CRAN.R-project.org/package=rxylib) manual.
-
-It is possible to load different file formats and see the x-y plot. Another feature is the transformation of data, e.g. translating wavelength spectra into energy sepctra or normalisations, ...
-
-Until now the plot and transformation panel is fully supported. This is not the case for the fitting feature. This will be extended in the future.
-
-## Impressions
-
-### Online:
-
-[App](https://johnsenfr.shinyapps.io/rxylib_shiny/)
-
-### Data panel:
-
-![](img/screenshot.jpg)
-
-### Transformation panel:
-
-![](img/screenshot2.jpg)
+'RLumModel Shiny' is a [Shiny](http://shiny.rstudio.com) app providing a graphical user interface for the **R** package ['RLumModel'](https://CRAN.R-project.org/package=RLumModel). The app allows visualising the results from simulating charge transfer in quartz.
 
 ## Installation and usage
 
@@ -35,10 +17,8 @@ devtools::install_github("JohannesFriedrich/RLumModelShiny@master")
 The application can be run on a local machine with the following command:
 
 ```r
-RLumModelShiny::run_rxylib()
+RLumModelShiny::run_RLumModel()
 ```
-
-
 
 ## License
 
